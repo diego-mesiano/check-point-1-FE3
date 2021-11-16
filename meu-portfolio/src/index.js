@@ -6,6 +6,11 @@ import Banner from './components/Banner';
 import Projetos from './components/Projetos';
 import Footer from './components/Footer';
 
+let cont = !localStorage.getItem("contador")?localStorage.setItem("contador", 1):localStorage.getItem("contador");
+window.onbeforeunload = function () {
+    cont++;
+    localStorage.setItem("contador", cont);
+}
 
 
 ReactDOM.render(
@@ -14,7 +19,7 @@ ReactDOM.render(
       <Header />
     </header>
     <main>
-      <Banner />
+      <Banner contador={cont}/>
       <p id="guia-projetos"></p>
       <h2 id="titulo-projetos">Meus Projetos</h2>
       <div id="sessao-projetos">
@@ -25,6 +30,7 @@ ReactDOM.render(
 
   </>,
   document.getElementById('root')
+  
   
 );
 

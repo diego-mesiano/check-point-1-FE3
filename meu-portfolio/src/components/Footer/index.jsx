@@ -2,6 +2,7 @@ import './style.scss';
 import linkedin from '../../img/linkedin.png';
 import github2 from '../../img/github2.png';
 import email from '../../img/email.png';
+import curriculoPdf from '../../img/curriculo-diego-mesiano.pdf';
 import curriculo from '../../img/curriculo.png';
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
         <li class="nav-item"><a href="https://www.linkedin.com/in/diego-mesiano-87b680213/" target="_blank" rel="noreferrer" class="nav-link px-2 text-muted"><img id="img-contato" src={linkedin} alt="Meu Linkedin"/></a></li>
         <li class="nav-item"><a href="https://github.com/diego-mesiano" class="nav-link px-2 text-muted" target="_blank" rel="noreferrer"><img id="img-contato" src={github2} alt="Meu GitHub"/></a></li>
         <li class="nav-item"><a href="mailto:diego.mesiano1@gmail.com" class="nav-link px-2 text-muted" target="_blank" rel="noreferrer"><img id="img-contato" src={email} alt="Meu email"/></a></li>
-        <li class="nav-item"><a href="https://vercel" class="nav-link px-2 text-muted" target="_blank" rel="noreferrer"><img id="img-contato" src={curriculo} alt="Meu curriculo"/></a></li>
+        <li class="nav-item"><a href={curriculoPdf} class="nav-link px-2 text-muted" target="_blank" rel="noreferrer"><img id="img-contato" src={curriculo} alt="Meu curriculo"/></a></li>
       </ul>
     </footer>
   )
