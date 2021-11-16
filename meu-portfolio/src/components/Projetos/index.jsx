@@ -105,15 +105,15 @@ function Projetos() {
                     <li id="descricao">
                         <strong>Descrição: </strong>{projetos.descricao}
                     </li>
-                    <li class={projetos.site === "" ? "d-none":""}>
+                    <li className={projetos.site === "" ? "d-none":""}>
                         <strong>Ver o projeto: </strong>
-                        <a class="btn btn-link" href={projetos.site} target="_blank" rel="noreferrer" role="button">
+                        <a className="btn btn-link" href={projetos.site} target="_blank" rel="noreferrer" role="button">
                             <img id="icones" src={ver} alt="Visualizar o projeto"/>
                         </a>
                     </li>
                     <li>
                         <strong>Código-fonte: </strong>
-                        <a class="btn btn-link" href={projetos.codigofonte} target="_blank" rel="noreferrer" role="button">
+                        <a className="btn btn-link" href={projetos.codigofonte} target="_blank" rel="noreferrer" role="button">
                             <img id="icones" src={git} alt="Código fonte do projeto"/>
                         </a>
                     </li>
