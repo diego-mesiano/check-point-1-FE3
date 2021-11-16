@@ -1,41 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 #card-projetos{
     list-style: none;
     margin-left: 0;
     padding: 10px;
-    max-width: 350px;
-    min-width: 350px;
-    border-style: none;
+    max-width: 430px;
+    min-width: 430px;
+    //border: solid 1px #555; 
+    background-color: #eee; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
     margin: 20px;
     border-radius: 20px;
     background-color: rgb(212, 213, 223);
-    color: rgb(59, 59, 59);
-    font-weight: 600;
+    color: #3e3f50;
+    font-weight: 500;
     font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: justify;
-    h3{
+    .text-monospace{
         text-align: center;
-        font-size: 30px;
-        margin-bottom: 20px;
+        color: #dc3545;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    h3{
+        font-family: 'Bebas Neue', cursive;
+        color: #3e3f50;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 0px;
         
     }
     strong{
-        color: black;
+        color: #3e3f50;
         font-weight: 700;
+        font-size: 18px;
+    }
+    #caixa-botoes{
+        display: flex;
+        align-content: flex-end;
     }
 }
 #imagem-card{
-    max-width: 300px;
+    max-width: 400px;
+    border-radius: 10px;
 }
 
 #icones{
-    max-width: 50px;
+    max-width: 40px;
 }
 
 #descricao{
-    margin-top: 10px;
+    
     margin-bottom: 10px;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,8 +21,23 @@ body {
 #titulo-projetos{
   margin-top: 110px;
   text-align: center;
-  font-family: 'Praise', cursive;
-  font-size: 50px;
-  color: rgb(59, 59, 59);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: #dc3545;
 }
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  width: 10px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #dc3545;
+}
+
+
 

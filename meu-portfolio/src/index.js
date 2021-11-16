@@ -7,21 +7,24 @@ import Banner from './components/Banner';
 import Projetos from './components/Projetos';
 import Footer from './components/Footer';
 
-if(!localStorage.getItem("contador") === true)
+if (!localStorage.getItem("contador") === true)
   localStorage.setItem("contador", 1);
 let cont = localStorage.getItem("contador");
 window.onbeforeunload = function () {
-    cont++;
-    localStorage.setItem("contador", cont);
+  cont++;
+  localStorage.setItem("contador", cont);
 }
 
 let mensagem = "";
-if(cont>1 && cont<4){
+if (cont >= 2 && cont < 3) {
   mensagem = "Bom te ver novamente!"
-}else if(cont>=4){
+} else if (cont >= 3 && cont <= 9) {
   mensagem = "Me contrata? =)"
+} else if (cont >= 10 && cont <= 19) {
+  mensagem = "Ainda não me contratou? =´("
+} else if (cont >= 20) {
+  mensagem = "Só poder ser meu fã! =D"
 }
-
 
 ReactDOM.render(
   <>
@@ -29,19 +32,19 @@ ReactDOM.render(
       <Header />
     </header>
     <main>
-      <Banner contador={cont} mensagem={mensagem}/>
+      <Banner contador={cont} mensagem={mensagem} />
       <p id="guia-projetos"></p>
       <h2 id="titulo-projetos">Meus Projetos</h2>
       <div id="sessao-projetos">
         <Projetos />
       </div>
     </main>
-    <Footer/>
+    <Footer />
 
   </>,
   document.getElementById('root')
-  
-  
+
+
 );
 
 

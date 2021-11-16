@@ -89,36 +89,36 @@ function Projetos() {
     return (
         projetos.map((projetos) => {
             return (
-            
+
                 <ul id="card-projetos" key={projetos.id}>
                     <li>
-                        <h3>{projetos.titulo}</h3>    
+                        <h3>{projetos.titulo}</h3>
                     </li>
+                    <div id="caixa-botoes">
+                        <li className={projetos.site === "" ? "d-none" : ""}>
+                            <a className="btn btn-link" href={projetos.site} target="_blank" rel="noreferrer" role="button">
+                                <img id="icones" src={ver} alt="Visualizar o projeto" />
+                            </a>
+                        </li>
+                        <li>
+                            <a className="btn btn-link" href={projetos.codigofonte} target="_blank" rel="noreferrer" role="button">
+                                <img id="icones" src={git} alt="Código fonte do projeto" />
+                            </a>
+                        </li>
+                    </div>
                     <li>
-                        <a href={projetos.site === "" ? projetos.codigofonte:projetos.site} target="_blank" rel="noreferrer" role="button" >
-                        <img id="imagem-card" src={projetos.imagem} alt="Imagem do projeto"/>
+                        <a href={projetos.site === "" ? projetos.codigofonte : projetos.site} target="_blank" rel="noreferrer" role="button" >
+                            <img id="imagem-card" src={projetos.imagem} alt="Imagem do projeto" />
                         </a>
                     </li>
                     <li>
-                        <strong>Ferramentas: </strong>{projetos.ferramentas}
+                        <p className="text-monospace">{projetos.ferramentas}</p>
                     </li>
                     <li id="descricao">
                         <strong>Descrição: </strong>{projetos.descricao}
                     </li>
-                    <li className={projetos.site === "" ? "d-none":""}>
-                        <strong>Ver o projeto: </strong>
-                        <a className="btn btn-link" href={projetos.site} target="_blank" rel="noreferrer" role="button">
-                            <img id="icones" src={ver} alt="Visualizar o projeto"/>
-                        </a>
-                    </li>
-                    <li>
-                        <strong>Código-fonte: </strong>
-                        <a className="btn btn-link" href={projetos.codigofonte} target="_blank" rel="noreferrer" role="button">
-                            <img id="icones" src={git} alt="Código fonte do projeto"/>
-                        </a>
-                    </li>
                 </ul>
-            
+
             )
         })
     )
