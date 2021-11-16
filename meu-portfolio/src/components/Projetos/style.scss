@@ -1,0 +1,41 @@
+#card-projetos{
+    list-style: none;
+    margin-left: 0;
+    padding: 10px;
+    max-width: 350px;
+    min-width: 350px;
+    border-style: none;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(212, 213, 223);
+    color: rgb(59, 59, 59);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    h3{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+        
+    }
+    strong{
+        color: black;
+        font-weight: 700;
+    }
+}
+#imagem-card{
+    max-width: 300px;
+}
+
+#icones{
+    max-width: 50px;
+}
+
+#descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

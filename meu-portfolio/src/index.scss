@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,5 +8,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#sessao-projetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#titulo-projetos{
+  margin-top: 110px;
+  text-align: center;
+  font-family: 'Praise', cursive;
+  font-size: 50px;
+  color: rgb(59, 59, 59);
 }
 
