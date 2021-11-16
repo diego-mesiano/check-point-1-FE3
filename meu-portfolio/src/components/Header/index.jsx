@@ -4,7 +4,7 @@ import './style.scss';
 function Header() {
 
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="cabecalho">
+    <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light" id="cabecalho">
       <div className="container-fluid">
         <a className="navbar-brand" href="#banner" id="logo">Diego Mesiano</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

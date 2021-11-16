@@ -59,3 +59,25 @@
     
     margin-bottom: 10px;
 }
+
+@media (max-width: 940px) {
+    #card-projetos{
+        max-width: 350px;
+        min-width: 350px;
+    }
+
+    #imagem-card{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 779px) {
+    #card-projetos{
+        max-width: 90vw;
+        min-width: 90vw;
+    }
+
+    #imagem-card{
+        max-width: 80vw;
+    }
+}
