@@ -1,9 +1,16 @@
 footer{
     margin: 0;
-    background-color: black;
+    background-color: rgb(59, 59, 59);
+    color: white;
     #logo-footer{
         font-family: 'Praise', cursive;
-        font-size: 200px;
         color: rgb(226, 223, 223);
+        text-decoration: none;
+        h2{
+            font-size: 50px;
+        }
+    }
+    #img-contato{
+        width: 50px;
     }
 }

@@ -19,7 +19,7 @@ function Projetos() {
             ferramentas: "Html, Css, JavaScript, React, Bootstrap e Sass",
             descricao: "Site elaborado individualmente para servir de primeiro instrumento avaliativo da disciplina de Front-End 3 do curso CTD - Web Developer Full Stack da Digital House (3º bimestre). O objetivo é treinar os conceitos básicos de React, Bootstrap e Sass além de utilizar o .map() para gerar essa lista de projetos.",
             site: "",
-            codigofonte: "https://www.github.com"
+            codigofonte: "https://github.com/diego-mesiano/check-point-1-FE3/tree/main/meu-portfolio"
         },
         {
             id: 2,
@@ -95,8 +95,8 @@ function Projetos() {
                         <h3>{projetos.titulo}</h3>    
                     </li>
                     <li>
-                        <a href={projetos.site== "" ? projetos.codigofonte:projetos.site} target="_blank" role="button" >
-                        <img id="imagem-card" src={projetos.imagem}/>
+                        <a href={projetos.site === "" ? projetos.codigofonte:projetos.site} target="_blank" rel="noreferrer" role="button" >
+                        <img id="imagem-card" src={projetos.imagem} alt="Imagem do projeto"/>
                         </a>
                     </li>
                     <li>
@@ -105,16 +105,16 @@ function Projetos() {
                     <li id="descricao">
                         <strong>Descrição: </strong>{projetos.descricao}
                     </li>
-                    <li class={projetos.site == "" ? "d-none":""}>
+                    <li class={projetos.site === "" ? "d-none":""}>
                         <strong>Ver o projeto: </strong>
-                        <a class="btn btn-link" href={projetos.site} target="_blank" role="button">
-                            <img id="icones" src={ver}/>
+                        <a class="btn btn-link" href={projetos.site} target="_blank" rel="noreferrer" role="button">
+                            <img id="icones" src={ver} alt="Visualizar o projeto"/>
                         </a>
                     </li>
                     <li>
                         <strong>Código-fonte: </strong>
-                        <a class="btn btn-link" href={projetos.codigofonte} target="_blank" role="button">
-                            <img id="icones" src={git}/>
+                        <a class="btn btn-link" href={projetos.codigofonte} target="_blank" rel="noreferrer" role="button">
+                            <img id="icones" src={git} alt="Código fonte do projeto"/>
                         </a>
                     </li>
                 </ul>
