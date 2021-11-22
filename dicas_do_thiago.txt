@@ -1,0 +1,17 @@
+mix blend mode
+
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+
+PageSpeed Insights
+
+otimizar o tamanho das imagens
+
+tinypng.com
+
+max 1400px
+
+moldura foca
+
+etiquetas nas tecnologias
+

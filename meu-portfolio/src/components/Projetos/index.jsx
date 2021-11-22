@@ -62,7 +62,7 @@ function Projetos() {
             titulo: "\"Fake\" Login",
             imagem: `${img6}`,
             ferramentas: "Html, Css, JavaScript",
-            descricao: "Site elaborado individualmente. Criei um site que cadastra e gerencia usuários, e faz login através do Front-End. O objetivo foi praticar o uso de local storage e manipulação de arrays. Ciente que esse modelo de autenticação não é seguro, não armazena dados e não é uma pratica de mercado.",
+            descricao: "Site elaborado individualmente. Criei um site que cadastra e gerencia usuários, e faz login através do Front-End. O objetivo foi praticar o uso de local storage e manipulação de arrays. Ciente que esse modelo de autenticação não é seguro, não armazena dados e não é uma prática de mercado.",
             site: "https://diego-mesiano.github.io/ProjectToDo/",
             codigofonte: "https://github.com/diego-mesiano/ProjectToDo"
         },
@@ -71,7 +71,7 @@ function Projetos() {
             titulo: "Base de Dados de Clinica Odontológica",
             imagem: `${img7}`,
             ferramentas: "Java, Sql, Maven, Log4j, JUnit e H2",
-            descricao: "Projeto elaborado individualmente como primeiro instrumento avaliativo da disciplina de Back-End do curso CTD - Web Developer Full Stack da Digital House (3º bimestre). Automatizado com Maven, o objetivo é simular um consultório odontológico, onde o usuário pode cadastrar, ler, alterar e deletar dados (CRUD) de pacientes e dentistas armazenados em uma base de dados H2. Além de gerar logs a cada operação CRUD utilizando a biblioteca Log4J. Projeto testado utilizando a bibloteca JUnit.",
+            descricao: "Projeto elaborado individualmente como primeiro instrumento avaliativo da disciplina de Back-End do curso CTD - Web Developer Full Stack da Digital House (3º bimestre). Automatizado com Maven, o objetivo é simular um consultório odontológico, onde o usuário pode cadastrar, ler, alterar e deletar dados (CRUD) de pacientes e dentistas armazenados em uma base de dados H2. Além de gerar logs a cada operação CRUD utilizando a biblioteca Log4J. Projeto testado utilizando a biblioteca JUnit.",
             site: "",
             codigofonte: "https://github.com/diego-mesiano/ctdDigitalHouse/tree/main/backEnd/CheckPoint1/clinica/src"
         },
