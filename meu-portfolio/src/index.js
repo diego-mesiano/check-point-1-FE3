@@ -23,7 +23,7 @@ if (cont >= 2 && cont < 3) {
 } else if (cont >= 10 && cont <= 19) {
   mensagem = "Ainda não me contratou? =´("
 } else if (cont >= 20) {
-  mensagem = "Só poder ser meu fã! =D"
+  mensagem = "Só pode ser meu fã! =D"
 }
 
 ReactDOM.render(
