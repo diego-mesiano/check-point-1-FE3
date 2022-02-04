@@ -7,10 +7,10 @@ import curriculo from '../../img/curriculo.png';
 
 const Footer = () => {
   return (
-    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top" id="rodape">
+    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top" id="contato">
       <p className="col-md-4 mb-0" id="p">© 2021 Diego Mesiano</p>
 
-      <a href="#banner" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" id="logo-footer">
+      <a href="#_home" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" id="logo-footer">
         <h2>D.M</h2>
       </a>
 

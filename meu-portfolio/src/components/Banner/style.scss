@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-#banner {
+#_home {
     height: calc(100vh);
     background-image: url("../../img/wallpaper.png");
     background-size: cover;
@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 1000px) {
-    #banner{
+    #_home{
         color:white;
         h1{
             color: white;
@@ -74,7 +74,7 @@
 }
 
 @media (max-width: 294px) {
-    #banner{
+    #_home{
         color:white;
         h1{
             color: white;

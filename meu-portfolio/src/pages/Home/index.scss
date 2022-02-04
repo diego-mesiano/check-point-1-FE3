@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#sessao-projetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#titulo-projetos{
+  margin-top: 110px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: #dc3545;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  width: 10px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #dc3545;
+}
+
+
+
