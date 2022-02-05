@@ -1,0 +1,116 @@
+
+
+.card{
+    font-family: 'Quantico', sans-serif;
+    color: #1F6022;
+    width: 340px;
+    height: 340px;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    
+    
+    .token-img{
+        position: relative;
+        left: 15px;
+        top: 15px;
+        max-width: 43px;
+        
+    }
+    .preco-abertura{
+        position: relative;
+        left: 100px;
+        bottom: 12px;
+        font-size: 15px;
+    }
+
+    .percentual-preco{
+        position: relative;
+        left: 194px;
+        bottom: 51px;
+        font-size: 15px;
+    }
+    .preco-atual{
+        position: relative;
+        left: 98px;
+        bottom: 77px;
+        font-size: 27px;
+    }
+    .up-down-img{
+        position: relative;
+        left: 255px;
+        bottom: 151px;
+        max-width: 51px;
+    }
+    .market-cap-img{
+        position: relative;
+        left: 50px;
+        bottom: 120px;
+        max-width: 31px;
+    }
+    .percentual-market-cap{
+        position: relative;
+        left: 93px;
+        bottom: 158px;
+        font-size: 15px;
+    }
+    .market-cap{
+        position: relative;
+        left: 88px;
+        bottom: 181px;
+        font-size: 20px;
+    }
+    .holders-img{
+        position: relative;
+        left: 190px;
+        bottom: 238px;
+        max-width: 35px;
+    }
+    .percentual-holders{
+        position: relative;
+        left: 233px;
+        bottom: 274px;
+        color:#892525;
+        font-size: 15px;
+    }
+    .holders{
+        position: relative;
+        left: 225px;
+        bottom: 299px;
+        color:#892525;
+        font-size: 20px;
+    }
+    .precos-alvos{
+        max-width: 274px;
+        background-color: #C4C4C4;
+        border-radius: 28px;
+        position: relative;
+        left: 30px;
+        bottom: 305px;
+        
+        .area-titulo{
+            display: flex;
+            align-items: flex-start;
+            padding: 12px 0px 0px 20px ;
+            
+            .titulo-precos{
+                color: #010101;
+                font-size: 15px;
+            }
+            .add-preco-alvo{
+                max-width: 24px;
+            }
+        }
+        .area-precos{
+            display: flex;
+            align-items: flex-start;
+            .precos-up{
+                margin-left: 10px;
+                margin-right: 28px;
+            }
+            .precos-down{
+
+            }
+        }
+       
+    }
+}

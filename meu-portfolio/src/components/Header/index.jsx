@@ -25,7 +25,7 @@ function Header() {
               <a href="/#contato" className="nav-link" location="" >Contato</a>
             </li>
             <li className="nav-item">
-              <Link to="/radar-crypto" className="nav-link">Radar-Cypto(Beta)</Link>
+              <Link to="/radar-crypto" className="nav-link">Crypto-Radar(Beta)</Link>
             </li>
           </ul>
         </div>

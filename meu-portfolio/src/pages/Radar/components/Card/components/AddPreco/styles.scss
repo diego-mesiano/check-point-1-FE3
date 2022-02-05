@@ -1,0 +1,16 @@
+
+
+.linha-preco{
+    display: flex;
+    align-items: flex-start;
+    
+    .preco-alvo-up{
+        font-size: 15px;
+        color: #1F6022;
+    }
+
+    .preco-alvo-down{
+        font-size: 15px;
+        color: #892525;
+    }
+}
